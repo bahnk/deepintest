@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "deepintest"
+version = "0.0.0"
+description = "Coding test for Deeper Insights"
+requires-python = ">= 3.10"
+license = {file = "LICENSE"}
+authors = [{name = "Nourdine Bah"}, {name = "Deeper Insights"},]
+maintainers = [{name = "Nourdine Bah", email = "nourdinebah@gmail.com"},]
+readme = {file = "README.md", content-type="text/markdown"}
+dependencies = ["click >= 8.1.3"]
+classifiers = [
+    "Natural Language :: English",
+    "Operating System :: POSIX :: Linux",
+    "Programming Language :: Python :: 3.19",
+]
+
+[project.urls]
+Home-page = "https://deeperinsights.com/"
+
